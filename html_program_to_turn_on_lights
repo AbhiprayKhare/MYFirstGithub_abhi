@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman ki site ka switch</title>
+    <link rel="stylesheet" href="switchcss.css">
+</head>
+<body>
+    <div class ="container">
+        <button class ="Btn01" onclick="lighton()">ON</button>
+    </div>
+    <img class="img" height="700" width="1300" src="black_background.jpg">
+    <button class="btn" onclick="lightoff()" >OFF</button>
+
+
+    <script>
+        var img=document.querySelector(".img");
+        var btn=document.querySelector(".btn");
+
+        function lighton()
+        {
+            img.style.display="block";
+            btn.style.display="block";
+        }
+        function lightoff()
+        {
+            img.style.display="none";
+            btn.style.display="none";
+        }
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman ki site ka switch</title>
+    <link rel="stylesheet" href="switchcss.css">
+</head>
+<body>
+    <div class ="container">
+        <button class ="Btn01" onclick="lighton()">ON</button>
+    </div>
+    <img class="img" height="700" width="1300" src="black_background.jpg">
+    <button class="btn" onclick="lightoff()" >OFF</button>
+
+
+    <script>
+        var img=document.querySelector(".img");
+        var btn=document.querySelector(".btn");
+
+        function lighton()
+        {
+            img.style.display="block";
+            btn.style.display="block";
+        }
+        function lightoff()
+        {
+            img.style.display="none";
+            btn.style.display="none";
+        }
+    </script>
+</body>
+</html>
